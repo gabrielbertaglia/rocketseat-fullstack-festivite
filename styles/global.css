@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-leckerli-one: "Leckerli One", cursive;
+  --font-family-baloo: "Baloo 2", sans-serif;
+  --font-family: "Open Sans", sans-serif;
+
+  --body: 400 1rem var(--font-family);
+  --body-sm: 400 .875rem var(--font-family);
+  --body-sm: 400 .75rem var(--font-family);
+
+  --heading: 700 1.75rem var(--font-family-baloo);
+  --heading-sm: 700 1.125rem var(--font-family-baloo);
+
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
+
+  --text-body: #C8CDD0;
+  --text-heading: #F9F9F9;
+}
+
+body {
+  overflow: hidden;
+
+  background-color: var(--shape-body);
+
+  font: var(--body);
+  color: var(--text-body);
+}
+
+h1, h2 {
+  color: var(--text-heading);
+}
+
+h1 {
+  font: var(--heading);
+}
+
+h2 {
+  font: var(--heading-sm);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
