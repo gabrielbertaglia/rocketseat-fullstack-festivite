@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -8,8 +9,11 @@
   <title>Formulário de Convite</title>
   <link rel="stylesheet" href="styles/index.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
 
   <div id="app">
@@ -23,9 +27,67 @@
         </header>
       </div>
     </aside>
-    <main>main</main>
+    <main>
+
+      <h1>Crie seu convite</h1>
+
+      <form>
+
+        <fieldset class="about-the-event">
+          <div class="legend-header">
+            <img src="assets/icons/calendar.svg" alt="ícone calendário">
+            <legend>Sobre o evento</legend>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="eventName">Nome do evento</label>
+            <input type="text" name="eventName" id="eventName" placeholder="Nome do evento">
+          </div>
+
+          <div class="flex">
+            <div class="input-wrapper flex-1">
+              <label for="start">Início</label>
+              <input type="datetime" name="start" id="end" placeholder="DD/MM/AAAA, --:--">
+            </div>
+            <div class="input-wrapper flex-1">
+              <label for="end">Fim</label>
+              <input type="datetime" name="end" id="end">
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="radio-wrapper">
+              <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <input type="radio" name="type" value="on-site" id="on-site">
+                  <label for="on-site">
+                    <img src="assets/icons/building-default.svg" alt="">
+                    <span>Presencial</span>
+                  </label>
+                </div>
+                <div class="radio-inner">
+                  <input type="radio" name="type" value="online" id="online">
+                  <label for="online">
+                    <img src="assets/icons/video-default.svg" alt="">
+                    <span>Online</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="textarea-wrapper">
+            <label for="description">Descrição</label>
+            <textarea name="description" id="description" cols="30" rows="4" placeholder="Escreva sobre os detalhes do evento"></textarea>
+          </div>
+        </fieldset>
+
+      </form>
+
+    </main>
   </div>
 
 
 </body>
+
 </html>
