@@ -2,7 +2,8 @@ input,
 textarea {
   appearance: none;
   width: 100%;
-  padding: 0.8125rem 1rem;
+  /* padding: 0.8125rem 1rem; */
+  padding-inline: 1rem;
   border-radius: 0.5rem;
   border: 1px solid transparent;
   outline: 1px solid var(--input-stroke);
@@ -17,6 +18,14 @@ textarea {
   &:focus {
     border-color: var(--brand-light);
   }
+}
+
+textarea {
+  padding-block: 1rem;
+}
+
+input {
+  height: 3rem;
 }
 
 label {
