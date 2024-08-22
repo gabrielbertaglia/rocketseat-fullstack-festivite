@@ -28,37 +28,38 @@
       </div>
     </aside>
     <main>
+      <div class="main-container">
 
-      <h1>Crie seu convite</h1>
+        <h1>Crie seu convite</h1>
 
-      <form>
+        <form>
 
-        <fieldset class="about-the-event">
-          <div class="legend-header">
-            <img src="assets/icons/calendar.svg" alt="ícone calendário">
-            <legend>Sobre o evento</legend>
-          </div>
-
-          <div class="input-wrapper">
-            <label for="eventName">Nome do evento</label>
-            <input type="text" name="eventName" id="eventName" placeholder="Nome do evento">
-          </div>
-
-          <div class="flex">
-            <div class="input-wrapper flex-1">
-              <label for="start">Início</label>
-              <input type="datetime" name="start" id="end" placeholder="DD/MM/AAAA, --:--">
+          <fieldset class="about-the-event">
+            <div class="legend-header">
+              <img src="assets/icons/calendar.svg" alt="ícone calendário">
+              <legend>Sobre o evento</legend>
             </div>
-            <div class="input-wrapper flex-1">
-              <label for="end">Fim</label>
-              <input type="datetime" name="end" id="end">
-            </div>
-          </div>
 
-          <div class="flex">
-            <div class="radio-wrapper">
+            <div class="input-wrapper">
+              <label for="eventName">Nome do evento</label>
+              <input type="text" name="eventName" id="eventName" placeholder="Nome do evento">
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label for="start">Início</label>
+                <input type="datetime-local" name="start" id="end" value="DD/MM/AAAA, --:--">
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="end">Fim</label>
+                <input type="datetime-local" name="end" id="end">
+              </div>
+            </div>
+
+            <div class="flex">
               <div class="radio-wrapper">
                 <div class="radio-inner">
+                  <div class="radio-image"></div>
                   <input type="radio" name="type" value="on-site" id="on-site">
                   <label for="on-site">
                     <img src="assets/icons/building-default.svg" alt="">
@@ -74,15 +75,16 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="textarea-wrapper">
-            <label for="description">Descrição</label>
-            <textarea name="description" id="description" cols="30" rows="4" placeholder="Escreva sobre os detalhes do evento"></textarea>
-          </div>
-        </fieldset>
+            <div class="textarea-wrapper">
+              <label for="description">Descrição</label>
+              <textarea name="description" id="description" cols="30" rows="4"
+                placeholder="Escreva sobre os detalhes do evento"></textarea>
+            </div>
+          </fieldset>
 
-      </form>
+        </form>
+      </div>
 
     </main>
   </div>

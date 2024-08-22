@@ -50,5 +50,10 @@ main {
   border-radius: .75rem;
 
   padding: 5rem 8.125rem;
-}
+  display: flex;
+  justify-content: center;
 
+  & .main-container {
+    max-width: 35rem;
+  }
+}

@@ -26,3 +26,16 @@ label {
   font: var(--body-sm);
   color: var(--text-body);
 }
+
+input[type="datetime-local"] {
+  color: var(--input-placeholder);
+  background-image: url('calendar-icon.png');
+  position: relative;
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+}
+
+.flex {
+  gap: 1rem
+}
