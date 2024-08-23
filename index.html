@@ -251,21 +251,9 @@
 
 
             <div class="flex">
-              <div class="input-wrapper">
+              <div class="input-wrapper flex-4">
 
                 <label>Estilo</label>
-                <!-- <div class="toggle-theme-dark">
-                  <input type="checkbox" name="dark" id="dark">
-                  <label for="dark">Escuro</label>
-                </div> -->
-                <!-- <div class="toggle-theme-dark">
-                  <input type="checkbox" name="dark" id="dark">
-                  <label for="dark">
-                    <span class="slider"></span>
-                    <span class="label-text">Escuro</span>
-                  </label>
-                </div> -->
-
                 <div class="toggle-wrapper">
                   <label class="toggle">
                     <input type="checkbox" name="dark" id="dark">
@@ -275,6 +263,17 @@
                 </div>
               </div>
 
+              <div class="input-wrapper flex-8">
+                <label>Foto de capa</label>
+                <div class="file-button-wrapper">
+                  <div class="file-button-inner">
+                    <input type="file" name="file-button" id="file-button" accept="image/*">
+                    <img src="/assets/icons/upload.svg" alt="ícone de upload">
+                    <label for="file-button" class="label-unset">Selecionar</label>
+                  </div>
+                  <p>Nenhum arquivo selecionado</p>
+                </div>
+              </div>
             </div>
           </fieldset>
 

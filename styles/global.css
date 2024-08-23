@@ -70,3 +70,15 @@ img {
 .flex-2 {
   flex: 2;
 }
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-8 {
+  flex: 8;
+}
+
+.label-unset {
+  all: unset;
+}
