@@ -1,0 +1,51 @@
+.theme-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.375rem, 1fr));
+  gap: .5rem;
+}
+
+.theme-inner {
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+  display: grid;
+  justify-items: center;
+  padding: 0.25rem 0.25rem 0.5rem;
+  gap: .5rem;
+
+  position: relative;
+  outline: 2px solid transparent;
+
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+
+  &:hover {
+    background-color: var(--shape-hover);
+  }
+
+  & :checked {
+    border-radius: .5rem;
+    outline: 2px solid var(--brand-light);
+  }
+
+  & :checked:hover, & :checked:focus {
+    border-radius: .5rem;
+    outline: 2px solid var(--brand-light); /* blue border on hover and checked */
+  }
+
+  img {
+    border-radius: 0.25rem;
+    object-fit: cover;
+  }
+
+  label {
+    all: unset;
+    font: var(--body-sm);
+    color: var(--text-body);
+  }
+
+}
