@@ -34,7 +34,7 @@
 
   & :checked:hover, & :checked:focus {
     border-radius: .5rem;
-    outline: 2px solid var(--brand-light); /* blue border on hover and checked */
+    outline: 2px solid var(--brand-light);
   }
 
   img {

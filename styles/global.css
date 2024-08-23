@@ -11,7 +11,7 @@
 
   --body: 400 1rem var(--font-family);
   --body-sm: 400 .875rem var(--font-family);
-  --body-sm: 400 .75rem var(--font-family);
+  --body-xs: 400 .75rem var(--font-family);
 
   --heading: 700 1.75rem var(--font-family-baloo);
   --heading-sm: 700 1.125rem var(--font-family-baloo);
@@ -31,7 +31,6 @@
   --text-heading: #F9F9F9;
 
   --brand-light: #59B2FF;
-
 
 }
 
