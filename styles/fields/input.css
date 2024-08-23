@@ -26,6 +26,23 @@ textarea {
 
 input {
   height: 3rem;
+
+  &:invalid {
+    border: .125rem solid var(--danger)
+  }
+
+  &:required+.error {
+    display: flex;
+    align-items: center;
+    font: var(--body-xs);
+    color: var(--danger);
+    gap: .5rem;
+    margin-top: .5rem;
+  }
+
+  &:valid+.error {
+    display: none;
+  }
 }
 
 label {

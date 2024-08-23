@@ -28,6 +28,7 @@
       </div>
     </aside>
     <main>
+      <div style="display: flex; align-items: center; flex-direction: column;">
       <div class="main-container">
 
         <h1>Crie seu convite</h1>
@@ -277,9 +278,40 @@
             </div>
           </fieldset>
 
+          <fieldset>
+            <div class="legend-header">
+              <img src="assets/icons/paintbrush.svg" alt="">
+              <legend>Dados para contato</legend>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="fullName">Nome</label>
+              <input type="text" name="fullName" id="fullName" placeholder="Nome completo" required>
+              <div class="error">
+                <img src="assets/icons/circle-alert.svg" alt="ícone de alerta">
+                <span>Campo obrigatório</span>
+              </div>
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="exemplo@email.com">
+
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" id="phone" placeholder="(99) 99999-9999">
+              </div>
+            </div>
+          </fieldset>
+
       </div>
 
       </form>
+
+    </div>
+
   </div>
 
   </main>
