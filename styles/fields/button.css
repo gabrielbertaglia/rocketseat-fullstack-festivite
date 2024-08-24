@@ -1,0 +1,22 @@
+button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #1D6FB6;
+  padding: 0.8125rem 1.25rem;
+
+  color: var(--text-heading);
+
+  border-radius: .5rem;
+
+  margin-left: auto;
+
+  & img {
+    width: 1.25rem;
+    height: 1.25rem;
+
+    color: white;
+  }
+}

@@ -23,3 +23,7 @@ fieldset+fieldset {
 legend {
   font: var(--heading-sm);
 }
+
+.contact {
+  padding-bottom: 3rem;
+}

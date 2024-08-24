@@ -83,3 +83,10 @@ img {
 .label-unset {
   all: unset;
 }
+
+.divider {
+  width: 100%;
+  height: 1px;
+  /* margin: 40px 0; */
+  background-color: var(--input-stroke);
+}
