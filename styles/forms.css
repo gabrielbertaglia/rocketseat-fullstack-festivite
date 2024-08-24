@@ -16,7 +16,7 @@ fieldset {
   gap: 0.75rem;
 }
 
-fieldset+fieldset {
+fieldset + fieldset {
   margin-top: 3rem;
 }
 

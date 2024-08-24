@@ -6,14 +6,13 @@
   overflow: hidden;
 
   padding: 1.25rem;
-
 }
 
 aside {
   position: relative;
   overflow: hidden;
 
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 
   & .aside-container {
     height: 100%;
@@ -35,9 +34,8 @@ aside {
 
   h1 {
     font: var(--logo);
-    color: #FF598B;
+    color: #ff598b;
   }
-
 }
 
 .logo {
@@ -46,10 +44,10 @@ aside {
 }
 
 main {
-  overflow: auto ;
+  overflow: auto;
 
   background-color: var(--shape-body);
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 
   padding: 5rem 8.125rem;
 

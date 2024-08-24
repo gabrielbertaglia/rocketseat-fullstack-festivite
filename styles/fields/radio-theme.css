@@ -1,16 +1,16 @@
 .theme-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8.375rem, 1fr));
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .theme-inner {
   border: 1px solid var(--input-stroke);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   display: grid;
   justify-items: center;
   padding: 0.25rem 0.25rem 0.5rem;
-  gap: .5rem;
+  gap: 0.5rem;
 
   position: relative;
   outline: 2px solid transparent;
@@ -28,12 +28,13 @@
   }
 
   & :checked {
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     outline: 2px solid var(--brand-light);
   }
 
-  & :checked:hover, & :checked:focus {
-    border-radius: .5rem;
+  & :checked:hover,
+  & :checked:focus {
+    border-radius: 0.5rem;
     outline: 2px solid var(--brand-light);
   }
 
@@ -47,5 +48,4 @@
     font: var(--body-sm);
     color: var(--text-body);
   }
-
 }
